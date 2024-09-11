@@ -14,7 +14,7 @@ for each in range(16):
     p.width(1)
     p.goto(-length / 2, length / 2)  
 
-    p.color(random.choice(["red", "pink", "yellow", "green", "blue", "sky blue", "cyan", "black"]))
+    p.color(random.choice(["red", "pink", "yellow", "blue", "sky blue", "cyan", "black", "gray"]))
     p.width(50)
     for _ in range(4):  # Draw one square
         p.forward(length)
